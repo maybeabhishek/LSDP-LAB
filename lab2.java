@@ -20,6 +20,7 @@ public class lab2{
             str[i] = s.next();
         }
         detectDuplicateArray(str);
+        s.close();
     }
 
     static String removeWhiteSpace(String st){
